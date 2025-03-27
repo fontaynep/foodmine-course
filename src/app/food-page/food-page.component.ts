@@ -9,9 +9,10 @@ import { NotFoundComponent } from '../not-found/not-found.component';
 
 @Component({
   selector: 'app-food-page',
+  standalone: false,
   templateUrl: './food-page.component.html',
   styleUrls: ['./food-page.component.css'],
-  imports: [NgFor, TagsComponent, CurrencyPipe, NotFoundComponent],
+  imports: [NgFor, TagsComponent, CurrencyPipe],
 })
 export class FoodPageComponent implements OnInit {
 

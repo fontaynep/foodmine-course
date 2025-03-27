@@ -10,6 +10,7 @@ import { FoodPageComponent } from './food-page/food-page.component';
 import { TagsComponent } from './tags/tags.component';
 import { NotFoundComponent } from './not-found/not-found.component';
 import { CommonModule } from '@angular/common';
+
 //import {RatingModule} from 'ng-starrating';
 
 @NgModule({
@@ -19,8 +20,9 @@ import { CommonModule } from '@angular/common';
     HomeComponent,
     SearchComponent,
     NotFoundComponent,
-    FoodPageComponent,
-    TagsComponent
+    TagsComponent,
+    FoodPageComponent
+    
   ],
   imports: [
     BrowserModule,

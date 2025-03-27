@@ -4,11 +4,14 @@ import { Tag } from '../shared/model/Tag';
 import { Input } from '@angular/core';
 import { OnInit } from '@angular/core';
 import { RouterLink } from '@angular/router';
+import { CommonModule, NgIf } from '@angular/common';
+
 @Component({
   selector: 'app-tags',
+  standalone: false,
   templateUrl: './tags.component.html',
   styleUrls: ['./tags.component.css'],
-  imports: [RouterLink],
+  imports: [RouterLink, NgIf, CommonModule],
 })
 export class TagsComponent implements OnInit {
 

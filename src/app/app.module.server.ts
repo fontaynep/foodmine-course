@@ -7,7 +7,7 @@ import { AppModule } from './app.module';
 import { serverRoutes } from './app.routes.server';
 
 @NgModule({
-  imports: [AppModule, ServerModule],
+  imports: [ServerModule],
   providers: [provideServerRouting(serverRoutes),
     provideServerRendering()
   ],
