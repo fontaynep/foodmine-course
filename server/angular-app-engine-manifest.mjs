@@ -1,6 +1,6 @@
 
 export default {
-  basePath: 'https://fontaynep.github.io/foodmine-course',
+  basePath: '/foodmine-course',
   supportedLocales: {
   "en-US": ""
 },
